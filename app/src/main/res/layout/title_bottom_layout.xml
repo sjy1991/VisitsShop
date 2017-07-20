@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_menu_bottom"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:background="@color/color_bottom_layout_bg"
+              android:layout_gravity="center_vertical">
+    <TextView
+        android:id="@+id/txt_menu_bottom_home"
+        android:drawableTop="@drawable/menu_home_style"
+        android:text="@string/txt_home"
+        style="@style/bottom_style"/>
+
+    <TextView
+        android:id="@+id/txt_menu_bottom_shop"
+        android:drawableTop="@drawable/menu_shop_style"
+        android:text="@string/txt_shop"
+        style="@style/bottom_style"
+       />
+    <TextView
+        android:id="@+id/txt_menu_bottom_visit"
+        android:drawableTop="@drawable/menu_visit_style"
+        android:text="@string/txt_visit"
+        style="@style/bottom_style"/>
+
+    <TextView
+        android:id="@+id/txt_menu_bottom_train"
+        android:drawableTop="@drawable/menu_train_style"
+        android:text="@string/txt_train"
+        style="@style/bottom_style"/>
+
+    <TextView
+        android:id="@+id/txt_menu_bottom_me"
+        android:drawableTop="@drawable/menu_me_style"
+        android:text="@string/txt_me"
+        style="@style/bottom_style"/>
+</LinearLayout>
